@@ -12,8 +12,7 @@
 	
 
 <section class="hero_section">
-	
-	<video class="full-image" data-mask="50" playsinline="" autoplay="" muted="" loop="">
+		<video class="full-image" data-mask="50" playsinline="" autoplay="" muted="" loop="">
                             <source src="assets/img/hero_video.mp4" type="video/mp4">
                         </video>
                         <div class="sec-overlay"></div>
@@ -34,7 +33,7 @@
 
 
 
-	<section class="vs-about-wrapper space position-relative" data-bg-src="assets/img/bg/bg-shape-1.jpg">
+	<section class="vs-about-wrapper space position-relative" id="about" data-bg-src="assets/img/bg/bg-shape-1.jpg">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 mb-30 mb-lg-0">
@@ -43,19 +42,19 @@
 				<div class="col-lg-6 align-self-center">
 					<div class="about-content ps-xl-5 ms-xl-2">
 						<h2 class="h1 mt-n2 mb-3 pb-1">A Complete <span class="text-theme">Hair Regrowth</span> Solution Company</h2>
-						<p>AdGroHair is committed to educating and improving the lives of all those affected by hair loss. It is our goal to create public awareness of this devastating disease of the spirit, and to legitimize hair loss of all forms in the eyes of our medical community, the media and society as a whole.</p>
+						<p>AdGro Hair is committed to educating and improving the lives of all those affected by hair loss. It is our goal to create public awareness of this devastating disease of the spirit, and to legitimize hair loss of all forms in the eyes of our medical community, the media and society as a whole.</p>
 						<div class="about-rating d-flex align-items-center"><img src="assets/img/bg/rating-shape-1.png" alt="Rating Shape" class="shape"> <span class="total text-theme h2 mb-0 mr-20 font-body">4.9</span>
-							<p class="rating-text mb-0"><span class="fw-bold text-decoration-underline text-title">Hospite Overall Rating,</span> based
+							<p class="rating-text mb-0"><span class="fw-bold text-decoration-underline text-title">Hospital Overall Rating,</span> based
 								<br>on 8126 reviews.</p>
 						</div>
-						<p class="fs-20 text-title fw-medium mb-1">To Book Your Appointment</p>
-						<p class="about-call-text fw-bold h4 text-theme font-body mb-0"><a href="#">+91 83906 56789</a> </p>
+						<!-- <p class="fs-20 text-title fw-medium mb-1">To Book Your Appointment</p>
+						<p class="about-call-text fw-bold h4 text-theme font-body mb-0"><a href="#">+91 83906 56789</a> </p> -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<div class="position-relative bg-box1">
+	<div class="position-relative bg-box1" id="services">
 		<div class="bg-box-shape1 position-absolute" data-overlay="title" data-opacity="7" data-bg-src="assets/img/bg/one.jpg"></div>
 		<div class="bg-box-shape2 position-absolute" data-bg-src="assets/img/bg/bg-shape-2.jpg"></div>
 		<section class="vs-service-wrapper space">
@@ -72,8 +71,8 @@
 					<div class="col-xl-4">
 						<div class="service-card mb-30">
 							<div class="sr-body">
-								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="service-details.html">AdGroHair percutaneous method</a></h3>
-								<p class="sr-text fs-xs">The AdGroHair percutaneous method is a modern technique through which channels that will include hair follicles are opened in the receiving area using a micro needle made of titanium in order to allow a good implantation of the extracted bulbs, also controlling the depth and direction of the follicles in order to give the hair grafts the best natural look possible.  </p>
+								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="service-details.html">AdGro Hair percutaneous method</a></h3>
+								<p class="sr-text fs-xs">The AdGro Hair percutaneous method is a modern technique through which channels that will include hair follicles are opened in the receiving area using a micro needle made of titanium in order to allow a good implantation of the extracted bulbs, also controlling the depth and direction of the follicles in order to give the hair grafts the best natural look possible.  </p>
 							</div>
 							<div class="sr-icons"><a href="#" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a> <span class="sr-icon"><i class="flaticon-medical-symbol fa-4x"></i></span></div>
 							<div class="sr-img">
@@ -83,8 +82,8 @@
 					<div class="col-xl-4">
 						<div class="service-card mb-30">
 							<div class="sr-body">
-								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="#">AdGroHair Cosmetic Systems</a></h3>
-								<p class="sr-text fs-xs">At AdGroHair we believe every man should feel great about his hair. That’s why we deliver luxurious, bespoke hair care treatments for the discerning modern gentleman – including everything from a simple cut and style through to our effective non-surgical hair replacement and loss treatments.</p>
+								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="#">AdGro Hair Cosmetic Systems</a></h3>
+								<p class="sr-text fs-xs">At AdGro Hair we believe every man should feel great about his hair. That’s why we deliver luxurious, bespoke hair care treatments for the discerning modern gentleman – including everything from a simple cut and style through to our effective non-surgical hair replacement and loss treatments.</p>
 							</div>
 							<div class="sr-icons"><a href="#" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a> <span class="sr-icon"><i class="flaticon-healthcare fa-4x"></i></span></div>
 							<div class="sr-img">
@@ -94,7 +93,7 @@
 					<div class="col-xl-4">
 						<div class="service-card mb-30">
 							<div class="sr-body">
-								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="#">AdGroHair Laser therapy for hair Restoration</a></h3>
+								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="#">AdGro Hair Laser therapy for hair Restoration</a></h3>
 								<p class="sr-text fs-xs">Laser hair therapy uses medical-grade lasers to deliver safe, low-level laser light to your scalp. As this light is absorbed, it helps increase microcirculation delivering a richer blood supply and nutrients to the hair follicle. Low-level laser light stimulates cellular activity in your follicles to help minimize hair loss while supporting hair regrowth</p>
 							</div>
 							<div class="sr-icons"><a href="#" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a> <span class="sr-icon"><i class="flaticon-group fa-4x"></i></span></div>
@@ -116,9 +115,9 @@
 				</div>
 				<div class="row justify-content-center justify-content-lg-between align-items-center pt-30 no-pt-sm">
 					<div class="col-auto mb-30 mb-lg-0">
-						<div class="notice-bar fs-xs bg-white text-center">
+						<!-- <div class="notice-bar fs-xs bg-white text-center">
 							<p><i class="fal fa-exclamation-circle text-theme me-2"></i> Delivering tomorrow’s health care for your family. <a href="#"><strong>View Doctor’s Timetable</strong><i class="far fa-long-arrow-right ms-2"></i></a></p>
-						</div>
+						</div> -->
 					</div>
 					<div class="col-auto"><a href="#" class="vs-btn style2">Make Appointment<i class="far fa-calendar-alt"></i></a></div>
 				</div>
@@ -132,7 +131,7 @@
 					</div>
 					<div class="col-xl-7 col-xxl-6 align-self-center"><span class="h3 text-theme sec-subtitle mb-2 mb-md-0">Priority care & Protection</span>
 						<h2 class="h1">We love your loved ones</h2>
-						<p class="pe-xl-5">AdGroHair Hair Transplant Centre is one of the best hair transplant clinic in our country, and provides to our patients the latest methods and techniques that modern science has reached in this field.</p>
+						<p class="pe-xl-5">AdGro Hair Hair Transplant Centre is one of the best hair transplant clinic in our country, and provides to our patients the latest methods and techniques that modern science has reached in this field.</p>
 						<div class="row pt-3">
 							<div class="col-sm-6 col-lg-5 col-xl-6">
 								<div class="d-flex mb-25"><span class="text-theme mr-20"><i class="flaticon-security fa-3x lh-1"></i></span>
@@ -146,7 +145,7 @@
 								<div class="d-flex mb-25"><span class="text-theme mr-20"><i class="flaticon-computer-mouse fa-3x lh-1"></i></span>
 									<div class="media-body">
 										<h3 class="h5 mb-2 pb-1">Latest Technology</h3>
-										<p class="mb-0 fs-xs">Advanced AdGroHair Patented technology percutaneous FUE Hair Transplant will make the Hair Transplant procedure simpler.</p>
+										<p class="mb-0 fs-xs">Advanced AdGro Hair Patented technology percutaneous FUE Hair Transplant will make the Hair Transplant procedure simpler.</p>
 									</div>
 								</div>
 							</div>
@@ -154,7 +153,7 @@
 								<div class="d-flex mb-25"><span class="text-theme mr-20"><i class="flaticon-healthcare fa-3x lh-1"></i></span>
 									<div class="media-body">
 										<h3 class="h5 mb-2 pb-1">World Class Ambience</h3>
-										<p class="mb-0 fs-xs">Advanced AdGroHair Clinics are built with premium and technologically advanced instruments to deliver best quality service.</p>
+										<p class="mb-0 fs-xs">Advanced AdGro Hair Clinics are built with premium and technologically advanced instruments to deliver best quality service.</p>
 									</div>
 								</div>
 							</div>
@@ -172,13 +171,13 @@
 			</div>
 		</section>
 	</div>
-	<section class="vs-team-wrapper space-top space-md-bottom" data-bg-src="assets/img/bg/bg-2.jpg">
+	<!-- <section class="vs-team-wrapper space-top space-md-bottom" id="doctors" data-bg-src="assets/img/bg/bg-2.jpg">
 		<div class="container">
 			<div class="row text-center justify-content-center">
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="section-title"><span class="h3 text-theme sec-subtitle">Medical & Hair Care!</span>
 						<h2 class="h1">Meet Our Doctors</h2>
-						<p>The AdGroHair medical team is comprised of an elite group of specialists personally chosen and trained by the company's founder.</p>
+						<p>The AdGro Hair medical team is comprised of an elite group of specialists personally chosen and trained by the company's founder.</p>
 					</div>
 				</div>
 			</div>
@@ -257,7 +256,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<div class="bg-box2 position-relative">
 		<div class="bg-box-shape3 z-index-n1 position-absolute">
 			<div class="parallax" data-parallax-image="assets/img/bg/banner_1.jpg"></div>
@@ -269,7 +268,7 @@
 						<div class="col-md-6 col-lg-auto mb-30">
 							<div class="d-xl-flex text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-discuss"></i></span>
 								<div class="media-body">
-									<h2 class="mt-n2 mb-0">30+</h2>
+									<!-- <h2 class="mt-n2 mb-0">30+</h2> -->
 									<p class="text-title fs-xs fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Years Of Experience</p>
 									
 								</div>
@@ -278,7 +277,7 @@
 						<div class="col-md-6 col-lg-auto mb-30">
 							<div class="d-xl-flex text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-medical-equipment"></i></span>
 								<div class="media-body">
-									<h2 class="mt-n2 mb-0">100+</h2>
+									<!-- <h2 class="mt-n2 mb-0">100+</h2> -->
 									<p class="text-title fs-xs fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Experienced Doctor's</p>
 									
 								</div>
@@ -287,7 +286,7 @@
 						<div class="col-md-6 col-lg-auto mb-30">
 							<div class="d-xl-flex text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-healthcare"></i></span>
 								<div class="media-body">
-									<h2 class="mt-n2 mb-0">200+</h2>
+									<!-- <h2 class="mt-n2 mb-0">200+</h2> -->
 									<p class="text-title fs-xs fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Happy Patients</p>
 									
 								</div>
@@ -297,7 +296,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="appointment-wrapper space-top space-bottom">
+		<section class="appointment-wrapper space-top space-bottom" id="contact">
 			<div class="container">
 				<div class="row gx-0">
 					<div class="col-xl-6 align-self-end">
@@ -359,7 +358,7 @@
 			</div>
 		</section>
 	</div>
-	<section class="testimonial-wrapper space-top">
+	<section class="testimonial-wrapper space-top" id="reviews">
 		<div class="parallax" data-parallax-image="assets/img/bg/bg-shape-3.jpg"></div>
 		<div class="container position-relative z-index-common">
 			<div class="row text-center justify-content-center">
@@ -433,7 +432,7 @@
 		</div>
 		<div class="testi-shape-img text-center mt-n5 wow fadeInUp" data-wow-delay="0.3s"><img src="assets/img/Heads.png" alt="Image" width="800px"></div>
 	</section>
-	<section class="vs-blog-wrapper space">
+	<!-- <section class="vs-blog-wrapper space">
 		<div class="container">
 			<div class="row text-center justify-content-center">
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -538,7 +537,7 @@
 				</div>
 			</div>
 		</div>
-	</section>s
+	</section>s -->
 	<div class="vs-newsletter-wrapper space-bottom">
 		<div class="container">
 			<div class="row justify-content-center">

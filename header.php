@@ -1,5 +1,5 @@
 <div class="preloader">
-		<button class="vs-btn preloaderCls">Cancel Preloader</button>
+		<!-- <button class="vs-btn preloaderCls"></button> -->
 		<div class="preloader-inner">
 			<svg width="88px" height="108px" viewbox="0 0 54 64">
 				<defs></defs>
@@ -13,23 +13,23 @@
 		<div class="vs-menu-area text-center">
 			<button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
 			<div class="mobile-logo">
-				<a href="index.html"><img src="assets/img/Adgro white color.png" width="150px"></a>
+				<a href="./"><img src="assets/img/Adgro white color.png" width="150px"></a>
 			</div>
 			
 			<div class="vs-mobile-menu">
 				<ul>
-					<li class="menu-item-has-children"><a href="index.html">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li class="menu-item-has-children"><a href="service.html">Services</a></li>
-					<li class="menu-item-has-children"><a href="#">Blog</a></li>
-					<li class="menu-item-has-children"><a href="#">Pages</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li class="menu-item-has-children"><a href="./">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li class="menu-item-has-children"><a href="#services">Services</a></li>
+					<!-- <li class="menu-item-has-children"><a href="#doctors">Doctors</a></li> -->
+					<li class="menu-item-has-children"><a href="#reviews">Reviews</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
 	<header class="header-wrapper header-layout1">
-		<div class="header-top bg-title py-2 d-none d-md-block">
+		<!-- <div class="header-top bg-title py-2 d-none d-md-block">
 			<div class="container custom-container py-1">
 				<div class="row justify-content-center justify-content-xl-between">
 					<div class="col-auto">
@@ -53,7 +53,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<div class="sticky-wrap">
 			<div class="sticky-active">
 				<div class="header-main">
@@ -61,7 +61,7 @@
 						<div class="row align-items-center justify-content-between">
 							<div class="col-auto col-xl-3 col-xxl-auto d-flex">
 								<div class="header1-logo">
-									<a href="index.html"><img src="assets/img/Adgro white color.png" alt="Logo" width="150px"></a>
+									<a href="./"><img src="assets/img/Adgro white color.png" alt="Logo" width="150px"></a>
 								</div>
 								<div class="d-none-xxxl header-call phone-box d-flex align-items-center"><span class="box-icon"><i class="fas fa-phone-alt"></i></span>
 									<div class="media-body"><span class="fs-xs text-title">Call Anytime</span>
@@ -74,19 +74,19 @@
 									<div class="col-auto">
 										<nav class="main-menu menu-style1 d-none d-lg-block">
 											<ul>
-												<li class="menu-item-has-children"><a href="index.html">Home</a></li>
-												<li><a href="about.html">About</a></li>
-												<li class="menu-item-has-children"><a href="service.html">Services</a></li>
-												<li class="menu-item-has-children"><a href="#">Blog</a></li>
-												<li class="menu-item-has-children mega-menu-wrap"><a href="#">Pages</a></li>
+												<li class="menu-item-has-children"><a href="./">Home</a></li>
+												<li><a href="#about">About</a></li>
+												<li class="menu-item-has-children"><a href="#services">Services</a></li>
+												<!-- <li class="menu-item-has-children"><a href="#doctors">Doctors</a></li> -->
+												<li class="menu-item-has-children mega-menu-wrap"><a href="#reviews">Reviews</a></li>
 												
-												<li><a href="contact.html">Contact</a></li>
+												<li><a href="#contact">Contact</a></li>
 											</ul>
 										</nav>
 										<button class="vs-menu-toggle d-inline-block d-lg-none"><i class="fas fa-bars"></i></button>
 									</div>
 									<div class="col-auto d-none d-xl-block">
-										<div class="header-btn"> <a href="#" class="icon-btn has-badge sideMenuToggler d-none d-xxl-inline-block"><i class="far fa-bell"></i><span class="badge">3</span></a> <a href="#" class="vs-btn style2">Appointment<i class="fal fa-calendar-alt"></i></a></div>
+										<div class="header-btn"> <a href="#" class="icon-btn has-badge sideMenuToggler d-none d-xxl-inline-block"><i class="far fa-bell"></i><span class="badge">3</span></a> <a href="#contact" class="vs-btn style2">Appointment<i class="fal fa-calendar-alt"></i></a></div>
 									</div>
 								</div>
 							</div>

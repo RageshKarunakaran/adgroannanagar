@@ -18,7 +18,9 @@
 	--flaticon: 'Flaticon';
 	--ripple-ani-duration: 5s;
 }
-
+body{
+	scroll-behavior: smooth;
+}
 html,body {
 	scroll-behavior: auto !important;
 }
@@ -298,6 +300,9 @@ p {
 }
 .banner_content h1 {
     font-size: 4rem;
+}
+.skill-wrap1 .fs-xs {
+    font-size: 20px!important;
 }
 .sec-overlay {
     position: absolute;
@@ -5027,7 +5032,9 @@ blockquote cite:before {
 .about-box1 {
 	padding: 45px 60px 60px 60px;
 }
-
+.sr-body {
+    padding: 0px 24px;
+}
 .doctor-box {
 	max-width: 204px;
 	text-align: center;
@@ -5395,6 +5402,7 @@ blockquote cite:before {
 .service-card .sr-text {
 	width: 100%;
 	max-width: 345px;
+	min-height: 235px;
 	padding-left: 20px;
 	padding-right: 20px;
 	margin-left: auto;
