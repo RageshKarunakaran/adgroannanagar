@@ -1,3 +1,7 @@
+<?php 
+session_start();
+?>
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 <head>
@@ -12,43 +16,72 @@
 	
 
 <section class="hero_section">
-		<video class="full-image" data-mask="50" playsinline="" autoplay="" muted="" loop="">
+		<!-- <video class="full-image" data-mask="50" playsinline="" autoplay="" muted="" loop="">
                             <source src="assets/img/hero_video.mp4" type="video/mp4">
-                        </video>
+                        </video> -->
                         <div class="sec-overlay"></div>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 my-auto">
+			<div class="col-lg-7 my-auto">
 				<div class="banner_content">
 				<h1>Transform your life with Adgro Hair Clinic</h1>
-				<p>AdGro Hair Clinic in Chennai is one of the prominent hair solution provider in India offering world class treatments to counter baldness and uplift the youthful spirits. </p>
-				<p>All treatments available are 100% safe and approved for treatment. Contact us to know more.</p>
+				
 				<a href="#" class="vs-btn style2">Contact Us<i class="far fa-phone-alt"></i></a>
 			</div>
+			<img src="assets/img/Heads.png" width="600px">
+			</div>
+			<div class="col-lg-5 text-center">
+					<div class="form-box">
+									<h3 class="text-white">Contact Us</h3>
+									<div class="row">
+									<div class="col-md-12">
+										<?php if(!empty($_GET['message'])) {
+										    $message = $_GET['message'];?>
+
+<span class="text-success"><?php echo $message; ?></span><?php
+										     
+										}
+										
+										?>
+
+									</div>
+								</div>
+								<form method="post" action="mail/mail.php">
+									<div class="row">
+									
+									<div class="col-xl-12 form-group">
+										<input type="text" name="name" class="form-control style2" placeholder="Your Name"> <i class="fal small fa-user"></i></div>
+									<div class="col-xl-12 form-group">
+										<input type="email" name="email" class="form-control style2" placeholder="Email Address"> <i class="fal small fa-envelope"></i></div>
+									<div class="col-xl-12 form-group">
+										<input type="number" name="mobile" class="form-control style2" placeholder="Your Phone"> <i class="fal small fa-phone"></i></div>
+									<div class="col-xl-12 form-group">
+										<input type="text" name="calendar" class="dateTime-pick form-control style2" placeholder="Select Date &amp; Time"> <i class="fal small fa-calendar-alt"></i></div>
+									<div class="col-xl-12 text-center">
+										<button type="submit"  class="vs-btn style2">Make Appointment<i class="far fa-calendar-alt"></i></button>
+									</div>
+								</div>
+								</form>
+							</div>
 			</div>
 		</div>
+		
 	</div>
 </section>
 
-
-
-
-	<section class="vs-about-wrapper space position-relative" id="about" data-bg-src="assets/img/bg/bg-shape-1.jpg">
+<section class="vs-about-wrapper space position-relative" id="about" data-bg-src="assets/img/bg/bg-shape-1.jpg">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 mb-30 mb-lg-0">
-					<div class="about-img1 wow fadeInUp" data-wow-delay="0.3s"><img src="assets/img/about-1-1.png" alt="About Image" class="w-100"> <a href="#" class="play-btn popup-video"><i class="fas fa-play"></i></a></div>
+					<div class="about-img1 wow fadeInUp" data-wow-delay="0.3s"><img src="assets/img/website.png" alt="About Image" class="w-100"> <a href="assets/img/hari.mp4" class="play-btn popup-video"><i class="fas fa-play"></i></a></div>
 				</div>
 				<div class="col-lg-6 align-self-center">
 					<div class="about-content ps-xl-5 ms-xl-2">
 						<h2 class="h1 mt-n2 mb-3 pb-1">A Complete <span class="text-theme">Hair Regrowth</span> Solution Company</h2>
+						<p>AdGro Hair Clinic in Chennai is one of the prominent hair solution provider in India offering world class treatments to counter baldness and uplift the youthful spirits. </p>
+				<p>All treatments available are 100% safe and approved for treatment. Contact us to know more.</p>
 						<p>AdGro Hair is committed to educating and improving the lives of all those affected by hair loss. It is our goal to create public awareness of this devastating disease of the spirit, and to legitimize hair loss of all forms in the eyes of our medical community, the media and society as a whole.</p>
-						<div class="about-rating d-flex align-items-center"><img src="assets/img/bg/rating-shape-1.png" alt="Rating Shape" class="shape"> <span class="total text-theme h2 mb-0 mr-20 font-body">4.9</span>
-							<p class="rating-text mb-0"><span class="fw-bold text-decoration-underline text-title">Hospital Overall Rating,</span> based
-								<br>on 8126 reviews.</p>
-						</div>
-						<!-- <p class="fs-20 text-title fw-medium mb-1">To Book Your Appointment</p>
-						<p class="about-call-text fw-bold h4 text-theme font-body mb-0"><a href="#">+91 83906 56789</a> </p> -->
+						
 					</div>
 				</div>
 			</div>
@@ -76,7 +109,7 @@
 							</div>
 							<div class="sr-icons"><a href="#" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a> <span class="sr-icon"><i class="flaticon-medical-symbol fa-4x"></i></span></div>
 							<div class="sr-img">
-								<div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div><img class="w-100" src="assets/img/bg/adult-male-getting-hair-loss-treatment.jpg" alt="Serivce Image"></div>
+								<div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div><img class="w-100" src="assets/img/services/Hair transplant.png" alt="Serivce Image"></div>
 						</div>
 					</div>
 					<div class="col-xl-4">
@@ -87,7 +120,7 @@
 							</div>
 							<div class="sr-icons"><a href="#" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a> <span class="sr-icon"><i class="flaticon-healthcare fa-4x"></i></span></div>
 							<div class="sr-img">
-								<div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div><img class="w-100" src="assets/img/bg/banner_1.jpg" alt="Serivce Image"></div>
+								<div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div><img class="w-100" src="assets/img/services/prp.png" alt="Serivce Image"></div>
 						</div>
 					</div>
 					<div class="col-xl-4">
@@ -98,7 +131,7 @@
 							</div>
 							<div class="sr-icons"><a href="#" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a> <span class="sr-icon"><i class="flaticon-group fa-4x"></i></span></div>
 							<div class="sr-img">
-								<div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div><img class="w-100" src="assets/img/bg/banner_2.jpg" alt="Serivce Image"></div>
+								<div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div><img class="w-100" src="assets/img/services/OLT.png" alt="Serivce Image"></div>
 						</div>
 					</div>
 					<div class="col-xl-4">
@@ -109,7 +142,7 @@
 							</div>
 							<div class="sr-icons"><a href="#" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a> <span class="sr-icon"><i class="flaticon-discuss fa-4x"></i></span></div>
 							<div class="sr-img">
-								<div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div><img class="w-100" src="assets/img/bg/banner_1.jpg" alt="Serivce Image"></div>
+								<div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div><img class="w-100" src="assets/img/services/scalp Micropigment.png" alt="Serivce Image"></div>
 						</div>
 					</div>
 				</div>
@@ -263,13 +296,13 @@
 		</div>
 		<section class="vs-skill-wrapper">
 			<div class="container">
-				<div class="skill-wrap1 bg-white">
+				<div class="skill-wrap1 bg-dark">
 					<div class="row justify-content-center justify-content-lg-between">
 						<div class="col-md-6 col-lg-auto mb-30">
 							<div class="d-xl-flex text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-discuss"></i></span>
 								<div class="media-body">
 									<!-- <h2 class="mt-n2 mb-0">30+</h2> -->
-									<p class="text-title fs-xs fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Years Of Experience</p>
+									<p class="text-title fs-xs text-white fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Years Of Experience</p>
 									
 								</div>
 							</div>
@@ -278,7 +311,7 @@
 							<div class="d-xl-flex text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-medical-equipment"></i></span>
 								<div class="media-body">
 									<!-- <h2 class="mt-n2 mb-0">100+</h2> -->
-									<p class="text-title fs-xs fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Experienced Doctor's</p>
+									<p class="text-title fs-xs text-white fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Experienced Doctor's</p>
 									
 								</div>
 							</div>
@@ -287,7 +320,7 @@
 							<div class="d-xl-flex text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-healthcare"></i></span>
 								<div class="media-body">
 									<!-- <h2 class="mt-n2 mb-0">200+</h2> -->
-									<p class="text-title fs-xs fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Happy Patients</p>
+									<p class="text-title fs-xs text-white fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Happy Patients</p>
 									
 								</div>
 							</div>
@@ -317,11 +350,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="d-flex author-box align-items-center">
-								<div class="avater-small mr-20"><img src="assets/img/author-1-1.png" alt="Author Image"></div>
-								<div class="media-body">
-									<h4 class="name h5 text-uppercase mb-0">David Smith</h4><span class="fs-xs text-theme lh-1">Consultant</span></div>
-							</div>
+							
 						</div>
 					</div>
 					<div class="col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -338,19 +367,34 @@
 							</div>
 							<div class="form-box">
 								<div class="row">
+									<div class="col-md-12">
+										<?php if(!empty($_GET['message'])) {
+										    $message = $_GET['message'];?>
+
+<span class="text-success"><?php echo $message; ?></span><?php
+										    
+										}
+										
+										?>
+
+									</div>
+								</div>
+								<form method="post" action="mail/mail.php">
+								<div class="row">
 									
 									<div class="col-xl-6 form-group">
-										<input type="text" class="form-control style2" placeholder="Your Name"> <i class="fal small fa-user"></i></div>
+										<input type="text" name="name" class="form-control style2" placeholder="Your Name"> <i class="fal small fa-user"></i></div>
 									<div class="col-xl-6 form-group">
-										<input type="email" class="form-control style2" placeholder="Email Address"> <i class="fal small fa-envelope"></i></div>
+										<input type="email" name="email" class="form-control style2" placeholder="Email Address"> <i class="fal small fa-envelope"></i></div>
 									<div class="col-xl-6 form-group">
-										<input type="number" class="form-control style2" placeholder="Your Phone"> <i class="fal small fa-phone"></i></div>
+										<input type="number" name="mobile" class="form-control style2" placeholder="Your Phone"> <i class="fal small fa-phone"></i></div>
 									<div class="col-xl-6 form-group">
-										<input type="text" class="dateTime-pick form-control style2" placeholder="Select Date & Time"> <i class="fal small fa-calendar-alt"></i></div>
+										<input type="text" name="calendar" class="dateTime-pick form-control style2" placeholder="Select Date & Time"> <i class="fal small fa-calendar-alt"></i></div>
 									<div class="col-xl-12 text-center">
 										<button type="submit" class="vs-btn style2">Make Appointment<i class="far fa-calendar-alt"></i></button>
 									</div>
 								</div>
+							</form>
 							</div>
 						</form>
 					</div>
@@ -432,6 +476,9 @@
 		</div>
 		<div class="testi-shape-img text-center mt-n5 wow fadeInUp" data-wow-delay="0.3s"><img src="assets/img/Heads.png" alt="Image" width="800px"></div>
 	</section>
+
+
+
 	<!-- <section class="vs-blog-wrapper space">
 		<div class="container">
 			<div class="row text-center justify-content-center">

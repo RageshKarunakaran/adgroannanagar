@@ -304,20 +304,29 @@ p {
 .skill-wrap1 .fs-xs {
     font-size: 20px!important;
 }
-.sec-overlay {
+/*.sec-overlay {
     position: absolute;
     top: 0px;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    height: 1000px;
+    height: 100vh;
     background-color: rgb(0 0 0 / 48%);
-}
+}*/
 .banner_content h1, .banner_content p{
 	color: #fff;
 }
 .hero_section{
-	padding: 100px 0px;
+	padding: 100px 0px 0px!important;
+}
+.hero_section{ background: linear-gradient(45deg, black, transparent), url(../../assets/img/mature-man-going-through-follicular-unit-extraction-process.jpg);
+ background-position: center; background-size: cover; background-repeat:
+ no-repeat; }
+.hero_section .form-box {
+    background: #ffffff3b;
+    padding: 2rem;
+    border-radius: 1rem;
+    filter: drop-shadow(2px 4px 6px black);
 }
 .carousel-container .slick-list {
 	overflow: visible;
@@ -3163,6 +3172,7 @@ textarea.form-control.is-invalid {
 .header-wrapper {
 	position: relative;
 	z-index: 41;
+	background: #000;
 }
 
 .will-sticky .sticky-active {

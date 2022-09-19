@@ -21,12 +21,8 @@
 							<h3 class="widget_title">About Us</h3>
 							<div class="vs-widget-about">
 								<p>AdGro Hair Clinic in Chennai is one of the prominent hair solution providers in India offering world-class treatments to counter baldness and uplift youthful spirits.</p>
-								<h4><a class="text-theme" href="tel:693232512456"><i class="fas fa-phone-volume me-2 pe-1"></i> 693 2325 12456</a></h4>
-								<div class="d-flex mt-3 pt-1">
-									<div class="avater-small mr-20"><img src="assets/img/author-1-1.png" alt="Avater Image"></div>
-									<div class="media-body align-self-center">
-										<h5 class="mb-0 font-body lh-1 text-white">Dr. David Smith</h5><span class="text-theme fs-12 lh-1">Senior Consultant</span></div>
-								</div>
+								<h4><a class="text-theme" href="tel:083906 56789"><i class="fas fa-phone-volume me-2 pe-1"></i> 083906 56789</a></h4>
+								
 							</div>
 						</div>
 					</div>
@@ -82,7 +78,7 @@
 									
 								</table>
 							</div>
-							<div class="address-line"><i class="far fa-map-marker-alt text-theme fs-md"></i> <a href="#" class="text-reset fs-md">Anna nagar , Chennai</a></div>
+							<div class="address-line"><i class="far fa-map-marker-alt text-theme fs-md"></i> <a href="#" class="text-reset fs-md">Kimberly Towers,<br> Y-222 1st Floor, 2nd Ave,<br> Anna Nagar, Chennai,<br> Tamil Nadu 600040</a></div>
 						</div>
 					</div>
 				</div>
