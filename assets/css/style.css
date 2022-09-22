@@ -1622,6 +1622,7 @@ textarea.form-control.is-invalid {
 	line-height: 65px;
 	font-size: 2em;
 	border-radius: 50%;
+	 transform: rotate(93deg);
 }
 
 .ripple-icon.style2 i {

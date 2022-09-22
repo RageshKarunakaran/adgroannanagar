@@ -26,12 +26,12 @@ session_start();
 				<div class="banner_content">
 				<h1>Transform your life with Adgro Hair Clinic</h1>
 				
-				<a href="#" class="vs-btn style2">Contact Us<i class="far fa-phone-alt"></i></a>
+				<a href="#contact-form" class="vs-btn style2">Contact Us<i class="far fa-phone-alt"></i></a>
 			</div>
 			<img src="assets/img/Heads.png" width="600px">
 			</div>
 			<div class="col-lg-5 text-center">
-					<div class="form-box">
+					<div class="form-box" id="contact-form">
 									<h3 class="text-white">Contact Us</h3>
 									<div class="row">
 									<div class="col-md-12">
@@ -152,7 +152,7 @@ session_start();
 							<p><i class="fal fa-exclamation-circle text-theme me-2"></i> Delivering tomorrow’s health care for your family. <a href="#"><strong>View Doctor’s Timetable</strong><i class="far fa-long-arrow-right ms-2"></i></a></p>
 						</div> -->
 					</div>
-					<div class="col-auto"><a href="#" class="vs-btn style2">Make Appointment<i class="far fa-calendar-alt"></i></a></div>
+					<div class="col-auto"><a href="#contact-form" class="vs-btn style2">Make Appointment<i class="far fa-calendar-alt"></i></a></div>
 				</div>
 			</div>
 		</section>
@@ -362,7 +362,7 @@ session_start();
 										<p class="mb-0 text-white-light">Our team of experts will be more than Happy to assist you.
 </p>
 									</div>
-									<div class="col-auto d-none d-sm-block"><a href="#" class="ripple-icon style2"><i class="fas fa-phone"></i></a></div>
+									<div class="col-auto d-none d-sm-block"><a href="#contact-form" class="ripple-icon style2"><i class="fas fa-phone"></i></a></div>
 								</div>
 							</div>
 							<div class="form-box">

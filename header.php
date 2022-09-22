@@ -65,7 +65,7 @@
 								</div>
 								<div class="d-none-xxxl header-call phone-box d-flex align-items-center"><span class="box-icon"><i class="fas fa-phone-alt"></i></span>
 									<div class="media-body"><span class="fs-xs text-title">Call Anytime</span>
-										<p class="h4 fw-bold lh-1 mb-0"><a href="tel:66925682596">669 2568 2596</a></p>
+										<p class="h4 fw-bold lh-1 mb-0"><a href="tel:083906 56789">083906 56789</a></p>
 									</div>
 								</div>
 							</div>
