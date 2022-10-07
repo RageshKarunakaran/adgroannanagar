@@ -24,7 +24,7 @@ session_start();
 		<div class="row">
 			<div class="col-lg-7 my-auto">
 				<div class="banner_content">
-				<h1>Transform your life with Adgro Hair Clinic</h1>
+				<h1>Transform your life with AdGro Hair Clinic</h1>
 				
 				<a href="#contact-form" class="vs-btn style2">Contact Us<i class="far fa-phone-alt"></i></a>
 			</div>
@@ -58,7 +58,7 @@ session_start();
 									<div class="col-xl-12 form-group">
 										<input type="text" name="calendar" class="dateTime-pick form-control style2" placeholder="Select Date &amp; Time"> <i class="fal small fa-calendar-alt"></i></div>
 									<div class="col-xl-12 text-center">
-										<button type="submit"  class="vs-btn style2">Make Appointment<i class="far fa-calendar-alt"></i></button>
+										<button type="submit"  class="vs-btn style2">Make an Appointment<i class="far fa-calendar-alt"></i></button>
 									</div>
 								</div>
 								</form>
@@ -96,7 +96,7 @@ session_start();
 					<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
 						<div class="section-title"><span class="h3 sec-subtitle text-theme">Hair & General Care!</span>
 							<h2 class="h1 text-white">Hair Regrowth Services</h2>
-							<p class="text-white-light">AdGro Hair Clinic has revolutionalised hair regrowth treatments with efficacy and innovative methodologies.</p>
+							<p class="text-white-light">AdGro Hair Clinic has revolutionalised hair regrowth treatments with efficacy and innovative methodologies</p>
 						</div>
 					</div>
 				</div>
@@ -104,7 +104,7 @@ session_start();
 					<div class="col-xl-4">
 						<div class="service-card mb-30">
 							<div class="sr-body">
-								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="service-details.html">AdGro Hair percutaneous method</a></h3>
+								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="service-details.html">AdGro Hair Percutaneous Method</a></h3>
 								<p class="sr-text fs-xs">The AdGro Hair percutaneous method is a modern technique through which channels that will include hair follicles are opened in the receiving area using a micro needle made of titanium in order to allow a good implantation of the extracted bulbs, also controlling the depth and direction of the follicles in order to give the hair grafts the best natural look possible.  </p>
 							</div>
 							<div class="sr-icons"><a href="#" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a> <span class="sr-icon"><i class="flaticon-medical-symbol fa-4x"></i></span></div>
@@ -126,8 +126,8 @@ session_start();
 					<div class="col-xl-4">
 						<div class="service-card mb-30">
 							<div class="sr-body">
-								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="#">AdGro Hair Laser therapy for hair Restoration</a></h3>
-								<p class="sr-text fs-xs">Laser hair therapy uses medical-grade lasers to deliver safe, low-level laser light to your scalp. As this light is absorbed, it helps increase microcirculation delivering a richer blood supply and nutrients to the hair follicle. Low-level laser light stimulates cellular activity in your follicles to help minimize hair loss while supporting hair regrowth</p>
+								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="#">AdGro Hair Laser Therapy for Hair Restoration</a></h3>
+								<p class="sr-text fs-xs">Laser hair therapy uses medical-grade lasers to deliver safe, low-level laser light to your scalp. As this light is absorbed, it helps increase microcirculation delivering a richer blood supply and nutrients to the hair follicle. Low-level laser light stimulates cellular activity in your follicles to help minimize hair loss while supporting hair regrowth.</p>
 							</div>
 							<div class="sr-icons"><a href="#" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a> <span class="sr-icon"><i class="flaticon-group fa-4x"></i></span></div>
 							<div class="sr-img">
@@ -138,7 +138,7 @@ session_start();
 						<div class="service-card mb-30">
 							<div class="sr-body">
 								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="#">Platelet Rich Plasma Pro Plus</a></h3>
-								<p class="sr-text fs-xs">PRP contains special cells called Platelets, that can cause growth of the hair follicles by theoretically stimulating the stem cells located in the Dermal Papilla as well as other structures of the hair follicle These special Platelet cells promotes healing, accelerates the rate and degree of tissue healing and regeneration, response of the body to injury, and formation of new cellular growth.</p>
+								<p class="sr-text fs-xs"> PRP contains special cells called Platelets, that can cause growth of the hair follicles by theoretically stimulating the stem cells located in the Dermal Papilla as well as other structures of the hair follicle. These special Platelet cells promotes healing, accelerates the rate and degree of tissue healing and regeneration, response of the body to injury, and formation of new cellular growth.</p>
 							</div>
 							<div class="sr-icons"><a href="#" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a> <span class="sr-icon"><i class="flaticon-discuss fa-4x"></i></span></div>
 							<div class="sr-img">
@@ -152,7 +152,7 @@ session_start();
 							<p><i class="fal fa-exclamation-circle text-theme me-2"></i> Delivering tomorrow’s health care for your family. <a href="#"><strong>View Doctor’s Timetable</strong><i class="far fa-long-arrow-right ms-2"></i></a></p>
 						</div> -->
 					</div>
-					<div class="col-auto"><a href="#contact-form" class="vs-btn style2">Make Appointment<i class="far fa-calendar-alt"></i></a></div>
+					<div class="col-auto"><a href="#contact-form" class="vs-btn style2">Make an Appointment<i class="far fa-calendar-alt"></i></a></div>
 				</div>
 			</div>
 		</section>
@@ -164,12 +164,12 @@ session_start();
 					</div>
 					<div class="col-xl-7 col-xxl-6 align-self-center"><span class="h3 text-theme sec-subtitle mb-2 mb-md-0">Priority care & Protection</span>
 						<h2 class="h1">We love your loved ones</h2>
-						<p class="pe-xl-5">AdGro Hair Hair Transplant Centre is one of the best hair transplant clinic in our country, and provides to our patients the latest methods and techniques that modern science has reached in this field.</p>
+						<p class="pe-xl-5">AdGro Hair Clinic is one of the best hair transplant clinic in our country, and provides to our patients the latest methods and techniques that modern science has reached in this field.</p>
 						<div class="row pt-3">
 							<div class="col-sm-6 col-lg-5 col-xl-6">
 								<div class="d-flex mb-25"><span class="text-theme mr-20"><i class="flaticon-security fa-3x lh-1"></i></span>
 									<div class="media-body">
-										<h3 class="h5 mb-2 pb-1">100% Safe & Trused</h3>
+										<h3 class="h5 mb-2 pb-1">100% Safe & Trusted</h3>
 										<p class="mb-0 fs-xs">The treatments are 100% safe and are FDA aapproved treatments.</p>
 									</div>
 								</div>
@@ -178,7 +178,7 @@ session_start();
 								<div class="d-flex mb-25"><span class="text-theme mr-20"><i class="flaticon-computer-mouse fa-3x lh-1"></i></span>
 									<div class="media-body">
 										<h3 class="h5 mb-2 pb-1">Latest Technology</h3>
-										<p class="mb-0 fs-xs">Advanced AdGro Hair Patented technology percutaneous FUE Hair Transplant will make the Hair Transplant procedure simpler.</p>
+										<p class="mb-0 fs-xs">AdGro Hair Patented technology percutaneous FUE Hair Transplant will make the Hair Transplant procedure simpler.</p>
 									</div>
 								</div>
 							</div>
@@ -186,7 +186,7 @@ session_start();
 								<div class="d-flex mb-25"><span class="text-theme mr-20"><i class="flaticon-healthcare fa-3x lh-1"></i></span>
 									<div class="media-body">
 										<h3 class="h5 mb-2 pb-1">World Class Ambience</h3>
-										<p class="mb-0 fs-xs">Advanced AdGro Hair Clinics are built with premium and technologically advanced instruments to deliver best quality service.</p>
+										<p class="mb-0 fs-xs">AdGro Hair Clinics are built with premium and technologically advanced instruments to deliver best quality service.</p>
 									</div>
 								</div>
 							</div>
@@ -311,7 +311,7 @@ session_start();
 							<div class="d-xl-flex text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-medical-equipment"></i></span>
 								<div class="media-body">
 									<!-- <h2 class="mt-n2 mb-0">100+</h2> -->
-									<p class="text-title fs-xs text-white fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Experienced Doctor's</p>
+									<p class="text-title fs-xs text-white fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Experienced Doctors</p>
 									
 								</div>
 							</div>
@@ -419,7 +419,7 @@ session_start();
 						<div class="col-xl-6">
 							<div class="testimonial-box mb-30 bg-white">
 								<div class="content">
-									<p class="fs-md">This was the best consultation I have ever had. Dr. Soorya is very knowledgeable. He explained my situation clearly and works to get the best treatment available. I highly recommend Advanced GroHair Clinic Anna Nagar</p>
+									<p class="fs-md">This was the best consultation I have ever had. Dr. Soorya is very knowledgeable. He explained my situation clearly and works to get the best treatment available. I highly recommend Advanced Gro Hair Clinic Anna Nagar</p>
 								</div>
 								<div class="author-img">
 									<div class="avater-line"></div>
@@ -455,7 +455,7 @@ session_start();
 						<div class="col-xl-6">
 							<div class="testimonial-box mb-30 bg-white">
 								<div class="content">
-									<p class="fs-md">Wonderful staff with friendly behavior from Ms- Soniya & Shruthi.Dr. Soorya who is such a skilled with expertise of humanity . Worth getting to change life style. Special thanks to Mr Dan & Mr Shan who keep the track of each and every request until closure.</p>
+									<p class="fs-md">Wonderful staff with friendly behavior from Ms- Soniya & Shruthi. Dr. Soorya who is such a skilled with expertise of humanity . Worth getting to change life style. Special thanks to Mr Dan & Mr Shan who keep the track of each and every request until closure.</p>
 								</div>
 								<div class="author-img">
 									<div class="avater-line"></div>
