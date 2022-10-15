@@ -6,7 +6,7 @@ session_start();
 <html class="no-js" lang="zxx">
 <head>
 	
-	<title>Adgro</title>
+	<title>Advanced Grohair</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<?php include('head.php') ?>
@@ -24,7 +24,7 @@ session_start();
 		<div class="row">
 			<div class="col-lg-7 my-auto">
 				<div class="banner_content">
-				<h1>Transform your life with AdGro Hair Clinic</h1>
+				<h1>Transform your life with Advanced Grohair Clinic</h1>
 				
 				<a href="#contact-form" class="vs-btn style2">Contact Us<i class="far fa-phone-alt"></i></a>
 			</div>
@@ -55,8 +55,8 @@ session_start();
 										<input type="email" name="email" class="form-control style2" placeholder="Email Address"> <i class="fal small fa-envelope"></i></div>
 									<div class="col-xl-12 form-group">
 										<input type="number" name="mobile" class="form-control style2" placeholder="Your Phone"> <i class="fal small fa-phone"></i></div>
-									<div class="col-xl-12 form-group">
-										<input type="text" name="calendar" class="dateTime-pick form-control style2" placeholder="Select Date &amp; Time"> <i class="fal small fa-calendar-alt"></i></div>
+									<!-- <div class="col-xl-12 form-group">
+										<input type="text" name="calendar" class="dateTime-pick form-control style2" placeholder="Select Date &amp; Time"> <i class="fal small fa-calendar-alt"></i></div> -->
 									<div class="col-xl-12 text-center">
 										<button type="submit"  class="vs-btn style2">Make an Appointment<i class="far fa-calendar-alt"></i></button>
 									</div>
@@ -78,9 +78,9 @@ session_start();
 				<div class="col-lg-6 align-self-center">
 					<div class="about-content ps-xl-5 ms-xl-2">
 						<h2 class="h1 mt-n2 mb-3 pb-1">A Complete <span class="text-theme">Hair Regrowth</span> Solution Company</h2>
-						<p>AdGro Hair Clinic in Chennai is one of the prominent hair solution provider in India offering world class treatments to counter baldness and uplift the youthful spirits. </p>
+						<p>Advanced Grohair Clinic in Chennai is one of the prominent hair solution provider in India offering world class treatments to counter baldness and uplift the youthful spirits. </p>
 				<p>All treatments available are 100% safe and approved for treatment. Contact us to know more.</p>
-						<p>AdGro Hair is committed to educating and improving the lives of all those affected by hair loss. It is our goal to create public awareness of this devastating disease of the spirit, and to legitimize hair loss of all forms in the eyes of our medical community, the media and society as a whole.</p>
+						<p>Advanced Grohair is committed to educating and improving the lives of all those affected by hair loss. It is our goal to create public awareness of this devastating disease of the spirit, and to legitimize hair loss of all forms in the eyes of our medical community, the media and society as a whole.</p>
 						
 					</div>
 				</div>
@@ -96,7 +96,7 @@ session_start();
 					<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
 						<div class="section-title"><span class="h3 sec-subtitle text-theme">Hair & General Care!</span>
 							<h2 class="h1 text-white">Hair Regrowth Services</h2>
-							<p class="text-white-light">AdGro Hair Clinic has revolutionalised hair regrowth treatments with efficacy and innovative methodologies</p>
+							<p class="text-white-light">Advanced Grohair Clinic has revolutionalised hair regrowth treatments with efficacy and innovative methodologies</p>
 						</div>
 					</div>
 				</div>
@@ -104,8 +104,8 @@ session_start();
 					<div class="col-xl-4">
 						<div class="service-card mb-30">
 							<div class="sr-body">
-								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="service-details.html">AdGro Hair Percutaneous Method</a></h3>
-								<p class="sr-text fs-xs">The AdGro Hair percutaneous method is a modern technique through which channels that will include hair follicles are opened in the receiving area using a micro needle made of titanium in order to allow a good implantation of the extracted bulbs, also controlling the depth and direction of the follicles in order to give the hair grafts the best natural look possible.  </p>
+								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="service-details.html">Advanced Grohair Percutaneous Method</a></h3>
+								<p class="sr-text fs-xs">The Advanced Grohair percutaneous method is a modern technique through which channels that will include hair follicles are opened in the receiving area using a micro needle made of titanium in order to allow a good implantation of the extracted bulbs, also controlling the depth and direction of the follicles in order to give the hair grafts the best natural look possible.  </p>
 							</div>
 							<div class="sr-icons"><a href="#" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a> <span class="sr-icon"><i class="flaticon-medical-symbol fa-4x"></i></span></div>
 							<div class="sr-img">
@@ -115,18 +115,18 @@ session_start();
 					<div class="col-xl-4">
 						<div class="service-card mb-30">
 							<div class="sr-body">
-								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="#">AdGro Hair Cosmetic Systems</a></h3>
-								<p class="sr-text fs-xs">At AdGro Hair we believe every man should feel great about his hair. That’s why we deliver luxurious, bespoke hair care treatments for the discerning modern gentleman – including everything from a simple cut and style through to our effective non-surgical hair replacement and loss treatments.</p>
+								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="#">Advanced Grohair Cosmetic Systems</a></h3>
+								<p class="sr-text fs-xs">At Advanced Grohair we believe every man should feel great about his hair. That’s why we deliver luxurious, bespoke hair care treatments for the discerning modern gentleman – including everything from a simple cut and style through to our effective non-surgical hair replacement and loss treatments.</p>
 							</div>
 							<div class="sr-icons"><a href="#" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a> <span class="sr-icon"><i class="flaticon-healthcare fa-4x"></i></span></div>
 							<div class="sr-img">
-								<div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div><img class="w-100" src="assets/img/services/prp.png" alt="Serivce Image"></div>
+								<div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div><img class="w-100" src="assets/img/cosmetic banner.png" alt="Serivce Image"></div>
 						</div>
 					</div>
 					<div class="col-xl-4">
 						<div class="service-card mb-30">
 							<div class="sr-body">
-								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="#">AdGro Hair Laser Therapy for Hair Restoration</a></h3>
+								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="#">Advanced Grohair Laser Therapy for Hair Restoration</a></h3>
 								<p class="sr-text fs-xs">Laser hair therapy uses medical-grade lasers to deliver safe, low-level laser light to your scalp. As this light is absorbed, it helps increase microcirculation delivering a richer blood supply and nutrients to the hair follicle. Low-level laser light stimulates cellular activity in your follicles to help minimize hair loss while supporting hair regrowth.</p>
 							</div>
 							<div class="sr-icons"><a href="#" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a> <span class="sr-icon"><i class="flaticon-group fa-4x"></i></span></div>
@@ -164,7 +164,7 @@ session_start();
 					</div>
 					<div class="col-xl-7 col-xxl-6 align-self-center"><span class="h3 text-theme sec-subtitle mb-2 mb-md-0">Priority care & Protection</span>
 						<h2 class="h1">We love your loved ones</h2>
-						<p class="pe-xl-5">AdGro Hair Clinic is one of the best hair transplant clinic in our country, and provides to our patients the latest methods and techniques that modern science has reached in this field.</p>
+						<p class="pe-xl-5">Advanced Grohair Clinic is one of the best hair transplant clinic in our country, and provides to our patients the latest methods and techniques that modern science has reached in this field.</p>
 						<div class="row pt-3">
 							<div class="col-sm-6 col-lg-5 col-xl-6">
 								<div class="d-flex mb-25"><span class="text-theme mr-20"><i class="flaticon-security fa-3x lh-1"></i></span>
@@ -178,7 +178,7 @@ session_start();
 								<div class="d-flex mb-25"><span class="text-theme mr-20"><i class="flaticon-computer-mouse fa-3x lh-1"></i></span>
 									<div class="media-body">
 										<h3 class="h5 mb-2 pb-1">Latest Technology</h3>
-										<p class="mb-0 fs-xs">AdGro Hair Patented technology percutaneous FUE Hair Transplant will make the Hair Transplant procedure simpler.</p>
+										<p class="mb-0 fs-xs">Advanced Grohair Patented technology percutaneous FUE Hair Transplant will make the Hair Transplant procedure simpler.</p>
 									</div>
 								</div>
 							</div>
@@ -186,7 +186,7 @@ session_start();
 								<div class="d-flex mb-25"><span class="text-theme mr-20"><i class="flaticon-healthcare fa-3x lh-1"></i></span>
 									<div class="media-body">
 										<h3 class="h5 mb-2 pb-1">World Class Ambience</h3>
-										<p class="mb-0 fs-xs">AdGro Hair Clinics are built with premium and technologically advanced instruments to deliver best quality service.</p>
+										<p class="mb-0 fs-xs">Advanced Grohair Clinics are built with premium and technologically advanced instruments to deliver best quality service.</p>
 									</div>
 								</div>
 							</div>
@@ -210,7 +210,7 @@ session_start();
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="section-title"><span class="h3 text-theme sec-subtitle">Medical & Hair Care!</span>
 						<h2 class="h1">Meet Our Doctors</h2>
-						<p>The AdGro Hair medical team is comprised of an elite group of specialists personally chosen and trained by the company's founder.</p>
+						<p>The Advanced Grohair Hair medical team is comprised of an elite group of specialists personally chosen and trained by the company's founder.</p>
 					</div>
 				</div>
 			</div>
@@ -299,7 +299,9 @@ session_start();
 				<div class="skill-wrap1 bg-dark">
 					<div class="row justify-content-center justify-content-lg-between">
 						<div class="col-md-6 col-lg-auto mb-30">
-							<div class="d-xl-flex text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-discuss"></i></span>
+							<div class="d-xl-flex align-items-center text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20">
+								<img src="assets/img/years of experiencesssss.png" width="80px">
+						</span>
 								<div class="media-body">
 									<!-- <h2 class="mt-n2 mb-0">30+</h2> -->
 									<p class="text-title fs-xs text-white fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Years Of Experience</p>
@@ -308,7 +310,9 @@ session_start();
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-auto mb-30">
-							<div class="d-xl-flex text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-medical-equipment"></i></span>
+							<div class="d-xl-flex align-items-center text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20">
+								<img src="assets/img/experienced doctor.png" width="80px">
+							</span>
 								<div class="media-body">
 									<!-- <h2 class="mt-n2 mb-0">100+</h2> -->
 									<p class="text-title fs-xs text-white fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Experienced Doctors</p>
@@ -317,7 +321,9 @@ session_start();
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-auto mb-30">
-							<div class="d-xl-flex text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-healthcare"></i></span>
+							<div class="d-xl-flex align-items-center text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20">
+								<img src="assets/img/Happy patient 1.png" width="80px">
+							</span>
 								<div class="media-body">
 									<!-- <h2 class="mt-n2 mb-0">200+</h2> -->
 									<p class="text-title fs-xs text-white fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Happy Patients</p>
@@ -335,7 +341,7 @@ session_start();
 					<div class="col-xl-6 align-self-end">
 						<div class="about-box1 bg-white">
 							<h2 class="h1 mb-3 pb-1">Result-oriented approach and Hassle-free service</span></h2>
-							<p>For those struggling with baldness and hair loss, AdGro Hair is the go-to haircare solution provider with our industry best services and team of medical experts.</p>
+							<p>For those struggling with baldness and hair loss, Advanced Grohair is the go-to haircare solution provider with our industry best services and team of medical experts.</p>
 							<div class="row pt-2 mt-3">
 								<div class="col-md-5 col-lg-4 col-xl-5">
 									<ul class="about-list list-unstyled text-title mb-4 pb-1">
@@ -546,7 +552,7 @@ session_start();
 					<div class="col-md-10 col-lg-8 col-xl-6">
 						<div class="section-title"><span class="h3 text-theme sec-subtitle">Customer Satisfaction</span>
 							<h2 class="h1">Own your look now</h2>
-							<p>The depressive consequences of hair fall and baldness can never be ignored. As a majority of men as well as women are troubled by the same, countering the loss of confidence and self-esteem is essential and the same can be assured by Adgro Hair Clinic.</p>
+							<p>The depressive consequences of hair fall and baldness can never be ignored. As a majority of men as well as women are troubled by the same, countering the loss of confidence and self-esteem is essential and the same can be assured by Advanced Grohair Hair Clinic.</p>
 						</div>
 					</div>
 				</div>
