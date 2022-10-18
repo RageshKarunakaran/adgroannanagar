@@ -50,7 +50,7 @@ try {
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
-    header("Location:https://adgrohairclinicannanagar.com/?message=Mail Sent Success.");
+    header("Location:https://adgrohairclinicannanagar.com/thank-you.php");
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }

@@ -10,6 +10,7 @@ session_start();
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<?php include('head.php') ?>
+	
 </head>
 <body>
 	<?php include ('header.php') ?>

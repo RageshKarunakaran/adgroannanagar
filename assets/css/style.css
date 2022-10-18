@@ -8766,3 +8766,22 @@ video {
 .sr-body h4.sr-title{
 	font-size: 18px;
 }
+.thanks {
+    background: rgb(255 255 255);
+    padding: 100px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px rgb(51 51 51 / 30%);
+    margin: 0px auto;
+}
+.thanks h1 {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 30px;
+}
+.thanks img {
+    font-size: 100px;
+    color: #f91942;
+    width: 100px;
+    height: 100px;
+}
