@@ -10,7 +10,6 @@ session_start();
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<?php include('head.php') ?>
-	
 </head>
 <body>
 	<?php include ('header.php') ?>
@@ -27,12 +26,12 @@ session_start();
 				<div class="banner_content">
 				<h1>Transform your life with Advanced Grohair Clinic</h1>
 				
-				<a href="#contact-form" class="vs-btn style2">Contact Us<i class="far fa-phone-alt"></i></a>
+				<a href="tel:8390656789" class="vs-btn style2">Contact Us<i class="far fa-phone-alt"></i></a>
 			</div>
 			<img src="assets/img/Heads.png" width="600px">
 			</div>
 			<div class="col-lg-5 text-center">
-					<div class="form-box" id="contact-form">
+					<div class="form-box">
 									<h3 class="text-white">Contact Us</h3>
 									<div class="row">
 									<div class="col-md-12">
@@ -52,14 +51,15 @@ session_start();
 									
 									<div class="col-xl-12 form-group">
 										<input type="text" name="name" class="form-control style2" placeholder="Your Name"> <i class="fal small fa-user"></i></div>
-									<div class="col-xl-12 form-group">
-										<input type="email" name="email" class="form-control style2" placeholder="Email Address"> <i class="fal small fa-envelope"></i></div>
-									<div class="col-xl-12 form-group">
+										<div class="col-xl-12 form-group">
 										<input type="number" name="mobile" class="form-control style2" placeholder="Your Phone"> <i class="fal small fa-phone"></i></div>
+										<div class="col-xl-12 form-group">
+										<input type="email" name="email" class="form-control style2" placeholder="Email Address"> <i class="fal small fa-envelope"></i></div>
+									
 									<!-- <div class="col-xl-12 form-group">
 										<input type="text" name="calendar" class="dateTime-pick form-control style2" placeholder="Select Date &amp; Time"> <i class="fal small fa-calendar-alt"></i></div> -->
 									<div class="col-xl-12 text-center">
-										<button type="submit"  class="vs-btn style2">Make an Appointment<i class="far fa-calendar-alt"></i></button>
+										<button type="submit"  class="vs-btn style2">Make Appointment<i class="far fa-calendar-alt"></i></button>
 									</div>
 								</div>
 								</form>
@@ -79,7 +79,7 @@ session_start();
 				<div class="col-lg-6 align-self-center">
 					<div class="about-content ps-xl-5 ms-xl-2">
 						<h2 class="h1 mt-n2 mb-3 pb-1">A Complete <span class="text-theme">Hair Regrowth</span> Solution Company</h2>
-						<p>Advanced Grohair Clinic in Chennai is one of the prominent hair solution provider in India offering world class treatments to counter baldness and uplift the youthful spirits. </p>
+						<p>Advanced Grohair Clinic in Chennai is one of the prominent hair solution provider in India offering world class treatments to counter baldness and uplift the youthful spirits.</p>
 				<p>All treatments available are 100% safe and approved for treatment. Contact us to know more.</p>
 						<p>Advanced Grohair is committed to educating and improving the lives of all those affected by hair loss. It is our goal to create public awareness of this devastating disease of the spirit, and to legitimize hair loss of all forms in the eyes of our medical community, the media and society as a whole.</p>
 						
@@ -121,7 +121,7 @@ session_start();
 							</div>
 							<div class="sr-icons"><a href="#" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a> <span class="sr-icon"><i class="flaticon-healthcare fa-4x"></i></span></div>
 							<div class="sr-img">
-								<div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div><img class="w-100" src="assets/img/cosmetic banner.png" alt="Serivce Image"></div>
+								<div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div><img class="w-100" src="assets/img/services/prp.png" alt="Serivce Image"></div>
 						</div>
 					</div>
 					<div class="col-xl-4">
@@ -135,17 +135,17 @@ session_start();
 								<div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div><img class="w-100" src="assets/img/services/OLT.png" alt="Serivce Image"></div>
 						</div>
 					</div>
-					<div class="col-xl-4">
+					<!-- <div class="col-xl-4">
 						<div class="service-card mb-30">
 							<div class="sr-body">
 								<h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="#">Platelet Rich Plasma Pro Plus</a></h3>
-								<p class="sr-text fs-xs"> PRP contains special cells called Platelets, that can cause growth of the hair follicles by theoretically stimulating the stem cells located in the Dermal Papilla as well as other structures of the hair follicle. These special Platelet cells promotes healing, accelerates the rate and degree of tissue healing and regeneration, response of the body to injury, and formation of new cellular growth.</p>
+								<p class="sr-text fs-xs">PRP contains special cells called Platelets, that can cause growth of the hair follicles by theoretically stimulating the stem cells located in the Dermal Papilla as well as other structures of the hair follicle These special Platelet cells promotes healing, accelerates the rate and degree of tissue healing and regeneration, response of the body to injury, and formation of new cellular growth.</p>
 							</div>
 							<div class="sr-icons"><a href="#" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a> <span class="sr-icon"><i class="flaticon-discuss fa-4x"></i></span></div>
 							<div class="sr-img">
 								<div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div><img class="w-100" src="assets/img/services/scalp Micropigment.png" alt="Serivce Image"></div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 				<div class="row justify-content-center justify-content-lg-between align-items-center pt-30 no-pt-sm">
 					<div class="col-auto mb-30 mb-lg-0">
@@ -153,7 +153,7 @@ session_start();
 							<p><i class="fal fa-exclamation-circle text-theme me-2"></i> Delivering tomorrow’s health care for your family. <a href="#"><strong>View Doctor’s Timetable</strong><i class="far fa-long-arrow-right ms-2"></i></a></p>
 						</div> -->
 					</div>
-					<div class="col-auto"><a href="#contact-form" class="vs-btn style2">Make an Appointment<i class="far fa-calendar-alt"></i></a></div>
+					<div class="col-auto"><a href="#" class="vs-btn style2">Make Appointment<i class="far fa-calendar-alt"></i></a></div>
 				</div>
 			</div>
 		</section>
@@ -170,7 +170,7 @@ session_start();
 							<div class="col-sm-6 col-lg-5 col-xl-6">
 								<div class="d-flex mb-25"><span class="text-theme mr-20"><i class="flaticon-security fa-3x lh-1"></i></span>
 									<div class="media-body">
-										<h3 class="h5 mb-2 pb-1">100% Safe & Trusted</h3>
+										<h3 class="h5 mb-2 pb-1">100% Safe & Trused</h3>
 										<p class="mb-0 fs-xs">The treatments are 100% safe and are FDA aapproved treatments.</p>
 									</div>
 								</div>
@@ -211,7 +211,7 @@ session_start();
 				<div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="section-title"><span class="h3 text-theme sec-subtitle">Medical & Hair Care!</span>
 						<h2 class="h1">Meet Our Doctors</h2>
-						<p>The Advanced Grohair Hair medical team is comprised of an elite group of specialists personally chosen and trained by the company's founder.</p>
+						<p>The AdGro Hair medical team is comprised of an elite group of specialists personally chosen and trained by the company's founder.</p>
 					</div>
 				</div>
 			</div>
@@ -300,9 +300,7 @@ session_start();
 				<div class="skill-wrap1 bg-dark">
 					<div class="row justify-content-center justify-content-lg-between">
 						<div class="col-md-6 col-lg-auto mb-30">
-							<div class="d-xl-flex align-items-center text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20">
-								<img src="assets/img/years of experiencesssss.png" width="80px">
-						</span>
+							<div class="d-xl-flex text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-discuss"></i></span>
 								<div class="media-body">
 									<!-- <h2 class="mt-n2 mb-0">30+</h2> -->
 									<p class="text-title fs-xs text-white fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Years Of Experience</p>
@@ -311,20 +309,16 @@ session_start();
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-auto mb-30">
-							<div class="d-xl-flex align-items-center text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20">
-								<img src="assets/img/experienced doctor.png" width="80px">
-							</span>
+							<div class="d-xl-flex text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-medical-equipment"></i></span>
 								<div class="media-body">
 									<!-- <h2 class="mt-n2 mb-0">100+</h2> -->
-									<p class="text-title fs-xs text-white fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Experienced Doctors</p>
+									<p class="text-title fs-xs text-white fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Experienced Doctor's</p>
 									
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-auto mb-30">
-							<div class="d-xl-flex align-items-center text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20">
-								<img src="assets/img/Happy patient 1.png" width="80px">
-							</span>
+							<div class="d-xl-flex text-center text-xl-start skill-box"><span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-healthcare"></i></span>
 								<div class="media-body">
 									<!-- <h2 class="mt-n2 mb-0">200+</h2> -->
 									<p class="text-title fs-xs text-white fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Happy Patients</p>
@@ -343,33 +337,40 @@ session_start();
 						<div class="about-box1 bg-white">
 							<h2 class="h1 mb-3 pb-1">Result-oriented approach and Hassle-free service</span></h2>
 							<p>For those struggling with baldness and hair loss, Advanced Grohair is the go-to haircare solution provider with our industry best services and team of medical experts.</p>
-							<div class="row pt-2 mt-3">
+							<ul class="about-list list-unstyled text-title mb-4 pb-1">
+										<li>Unique Hair Transplant method</li>
+										<li>Cosmetic Hair System</li>
+										<li>Hair Restoration method</li>
+									</ul>
+							
+							<!-- <div class="row pt-2 mt-3">
 								<div class="col-md-5 col-lg-4 col-xl-5">
 									<ul class="about-list list-unstyled text-title mb-4 pb-1">
 										<li>Unique Hair Transplant method</li>
 										<li>Cosmetic Hair System</li>
+										<li>Hair Restoration method</li>
 									</ul>
 								</div>
-								<div class="col-md-5 col-lg-4 col-xl-5">
+								<div class="col-md-5 col-lg-4 col-xl-5" center>
 									<ul class="about-list list-unstyled text-title mb-4 pb-1">
 										<li>Hair Restoration method</li>
-										<li>PRP PRO +</li>
+										 <li>PRP PRO +</li>
 									</ul>
 								</div>
-							</div>
+							</div> -->
 							
 						</div>
 					</div>
 					<div class="col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
 						<form action="#" class="form-wrap1 bg-white">
 							<div class="form-title-box bg-title" data-bg-src="assets/img/bg/bg-shape-11.jpg">
-								<div class="row justify-content-between align-items-center">
+								<div class="row justify-content-between">
 									<div class="col-auto">
 										<h2 class="h4 mb-1 text-white">Book an appointment now</h2>
 										<p class="mb-0 text-white-light">Our team of experts will be more than Happy to assist you.
 </p>
 									</div>
-									<div class="col-auto d-none d-sm-block"><a href="#contact-form" class="ripple-icon style2"><i class="fas fa-phone"></i></a></div>
+									<div class="col-auto d-none d-sm-block"><a href="#" class="ripple-icon style2"><i class="fas fa-phone"></i></a></div>
 								</div>
 							</div>
 							<div class="form-box">
@@ -389,14 +390,16 @@ session_start();
 								<form method="post" action="mail/mail.php">
 								<div class="row">
 									
-									<div class="col-xl-6 form-group">
+									<div class="col-xl-12 form-group">
 										<input type="text" name="name" class="form-control style2" placeholder="Your Name"> <i class="fal small fa-user"></i></div>
-									<div class="col-xl-6 form-group">
-										<input type="email" name="email" class="form-control style2" placeholder="Email Address"> <i class="fal small fa-envelope"></i></div>
-									<div class="col-xl-6 form-group">
+										<div class="col-xl-12 form-group">
 										<input type="number" name="mobile" class="form-control style2" placeholder="Your Phone"> <i class="fal small fa-phone"></i></div>
-									<div class="col-xl-6 form-group">
-										<input type="text" name="calendar" class="dateTime-pick form-control style2" placeholder="Select Date & Time"> <i class="fal small fa-calendar-alt"></i></div>
+									
+										<div class="col-xl-12 form-group">
+										<input type="email" name="email" class="form-control style2" placeholder="Email Address"> <i class="fal small fa-envelope"></i></div>
+									
+									<!-- <div class="col-xl-12 form-group">
+										<input type="text" name="calendar" class="dateTime-pick form-control style2" placeholder="Select Date & Time"> <i class="fal small fa-calendar-alt"></i></div> -->
 									<div class="col-xl-12 text-center">
 										<button type="submit" class="vs-btn style2">Make Appointment<i class="far fa-calendar-alt"></i></button>
 									</div>
@@ -426,11 +429,11 @@ session_start();
 						<div class="col-xl-6">
 							<div class="testimonial-box mb-30 bg-white">
 								<div class="content">
-									<p class="fs-md">This was the best consultation I have ever had. Dr. Soorya is very knowledgeable. He explained my situation clearly and works to get the best treatment available. I highly recommend Advanced Gro Hair Clinic Anna Nagar</p>
+									<p class="fs-md">This was the best consultation I have ever had. Dr. Soorya is very knowledgeable. He explained my situation clearly and works to get the best treatment available. I highly recommend Advanced GroHair Clinic Anna Nagar</p>
 								</div>
 								<div class="author-img">
 									<div class="avater-line"></div>
-									<div class="avater"><img src="assets/img/author-1-1.png"></div>
+									<div class="avater"><img src="assets/img/2.png"></div>
 								</div>
 								<div class="author-info">
 									<div class="info">
@@ -448,7 +451,7 @@ session_start();
 								</div>
 								<div class="author-img">
 									<div class="avater-line"></div>
-									<div class="avater"><img src="assets/img/author-1-1.png"></div>
+									<div class="avater"><img src="assets/img/1.png"></div>
 								</div>
 								<div class="author-info">
 									<div class="info">
@@ -462,7 +465,7 @@ session_start();
 						<div class="col-xl-6">
 							<div class="testimonial-box mb-30 bg-white">
 								<div class="content">
-									<p class="fs-md">Wonderful staff with friendly behavior from Ms- Soniya & Shruthi. Dr. Soorya who is such a skilled with expertise of humanity . Worth getting to change life style. Special thanks to Mr Dan & Mr Shan who keep the track of each and every request until closure.</p>
+									<p class="fs-md">Wonderful staff with friendly behavior from Ms- Soniya & Shruthi.Dr. Soorya who is such a skilled with expertise of humanity . Worth getting to change life style. Special thanks to Mr Dan & Mr Shan who keep the track of each and every request until closure.</p>
 								</div>
 								<div class="author-img">
 									<div class="avater-line"></div>
@@ -553,7 +556,7 @@ session_start();
 					<div class="col-md-10 col-lg-8 col-xl-6">
 						<div class="section-title"><span class="h3 text-theme sec-subtitle">Customer Satisfaction</span>
 							<h2 class="h1">Own your look now</h2>
-							<p>The depressive consequences of hair fall and baldness can never be ignored. As a majority of men as well as women are troubled by the same, countering the loss of confidence and self-esteem is essential and the same can be assured by Advanced Grohair Hair Clinic.</p>
+							<p>The depressive consequences of hair fall and baldness can never be ignored. As a majority of men as well as women are troubled by the same, countering the loss of confidence and self-esteem is essential and the same can be assured by Adgro Hair Clinic.</p>
 						</div>
 					</div>
 				</div>

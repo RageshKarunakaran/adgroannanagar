@@ -18,11 +18,17 @@
 			
 			<div class="vs-mobile-menu">
 				<ul>
-					<li class="menu-item-has-children"><a href="./">Home</a></li>
+					<!-- <li class="menu-item-has-children"><a href="./">Home</a></li>
 					<li><a href="#about">About</a></li>
 					<li class="menu-item-has-children"><a href="#services">Services</a></li>
-					<!-- <li class="menu-item-has-children"><a href="#doctors">Doctors</a></li> -->
+					<li class="menu-item-has-children"><a href="#doctors">Doctors</a></li>
 					<li class="menu-item-has-children"><a href="#reviews">Reviews</a></li>
+					<li><a href="#contact">Contact</a></li> -->
+
+					<li><a href="./">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#reviews">Reviews</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</div>
@@ -65,7 +71,7 @@
 								</div>
 								<div class="d-none-xxxl header-call phone-box d-flex align-items-center"><span class="box-icon"><i class="fas fa-phone-alt"></i></span>
 									<div class="media-body"><span class="fs-xs text-title">Call Anytime</span>
-										<p class="h4 fw-bold lh-1 mb-0"><a href="tel:083906 56789">083906 56789</a></p>
+										<p class="h4 fw-bold lh-1 mb-0"><a href="tel:66925682596">669 2568 2596</a></p>
 									</div>
 								</div>
 							</div>
@@ -74,11 +80,20 @@
 									<div class="col-auto">
 										<nav class="main-menu menu-style1 d-none d-lg-block">
 											<ul>
-												<li class="menu-item-has-children"><a href="./">Home</a></li>
+												<!-- <li class="menu-item-has-children"><a href="./">Home</a></li>
 												<li><a href="#about">About</a></li>
 												<li class="menu-item-has-children"><a href="#services">Services</a></li>
-												<!-- <li class="menu-item-has-children"><a href="#doctors">Doctors</a></li> -->
+												<li class="menu-item-has-children"><a href="#doctors">Doctors</a></li>
 												<li class="menu-item-has-children mega-menu-wrap"><a href="#reviews">Reviews</a></li>
+												
+												<li><a href="#contact">Contact</a></li> -->
+
+
+												<li><a href="./">Home</a></li>
+												<li><a href="#about">About</a></li>
+												<li><a href="#services">Services</a></li>
+												
+												<li><a href="#reviews">Reviews</a></li>
 												
 												<li><a href="#contact">Contact</a></li>
 											</ul>
